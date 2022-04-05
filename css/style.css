@@ -25,6 +25,6 @@ margin: 2px 2px;
    order: -1;
 }
 
-.element:nth-child(2){
+.element:nth-child(5){
    align-self: flex-end;
 }
