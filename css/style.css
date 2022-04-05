@@ -1,0 +1,30 @@
+.container {
+width: 100%;
+margin: 0 auto;
+display: flex;
+border: 1px solid #000;
+min-height: 100px;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+flex-direction: column;
+}
+
+.element {
+background: red;
+color: #fff;
+width: 40px;
+height: 40px;
+font-size: 20px;
+line-height: 200%;
+flex: 0 1 100%;
+margin: 2px 2px;
+}
+
+.element:nth-child(3){
+   order: -1;
+}
+
+.element:nth-child(2){
+   align-self: flex-end;
+}
